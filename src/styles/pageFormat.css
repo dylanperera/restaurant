@@ -1,0 +1,77 @@
+body {
+  --backgroundDark: rgba(0, 0, 0, 0.9);
+  --borderColor: #222;
+  --transitionButton: background 0.25s ease-in-out;
+  background: url("../images/lavender.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  margin: 0px;
+}
+
+#pageHeader {
+  width: 100vw;
+  height: 25vh;
+  background-color: var(--backgroundDark);
+  border-bottom: 1px solid var(--borderColor);
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  margin: 0;
+}
+
+/*Main font used for lavender catering logo*/
+@font-face {
+    font-family: 'lavenderCursive';
+    src: url('../fonts/SweetSensationsPersonalUse-lRgq.ttf');
+}
+
+/*Main font used for the menu options*/
+@font-face {
+  font-family: 'mainFont';
+  src: url('../fonts/Montserrat Regular 400.ttf');
+}
+
+#headerTitle{
+    font-size: 80px;
+    font-family: 'lavenderCursive';
+    color: rgb(255, 0, 255);
+    padding-top: 20px;
+}
+
+ul{
+    display: flex;
+    color: white;
+    gap: 48px;
+}
+
+li{
+    padding: 20px;
+    border-radius: 16px;
+    list-style: none;
+    font-size: 23px;
+    background-color: none;
+    transition: var(--transitionButton);
+    font-family:'mainFont', Arial, sans-serif;
+}
+
+li:hover{
+    background-color: rgba(255, 255, 255, 0.4);
+}
+
+#pageInfo{
+    position: absolute;
+    height: 600px;
+    width: 700px;
+    background-color:var(--backgroundDark);
+    border: 2px solid var(--borderColor);
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-30%);
+}
