@@ -30,9 +30,10 @@ export default class Page {
     inputFunction();
   }
 
-  removeCurrentContent() {
-    const contentBody = document.getElementById("pagesInfo");
+  removeCurrentContent(classToRemove) {
+    const contentBody = document.getElementById("pageInfo");
     contentBody.textContent = "";
+    contentBody.classList.remove(classToRemove);
   }
 }
 
