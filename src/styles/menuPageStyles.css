@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'mainFont';
+    src: url('../fonts/Montserrat Regular 400.ttf');
+}
+
+.menupageInfo{
+    display: grid;
+    font-weight: bold;
+    grid-template-columns: repeat(2, 250px);
+    grid-template-rows: repeat(4, 300px);
+    gap: 40px;
+    top: 50%;
+    left: 50%;
+    padding: 40px;
+    height: 1330px;
+    transform: translate(-50%, -13%);
+    font-family: 'mainFont';
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+    position: absolute;
+    width: 700px;
+    background-color:var(--backgroundDark);
+    border: 2px solid var(--borderColor);
+    
+}
+
+#foodimg{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    border: 1px solid #222;
+}
+
+#foodCard{
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 250px;
+    height: 300px;
+    transition: background ease-in-out 0.5s;
+}
+
+#foodCard:hover{
+    background-color: rgba(43, 42, 42, 0.7);
+    cursor: pointer;
+}

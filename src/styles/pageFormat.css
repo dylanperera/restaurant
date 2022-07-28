@@ -1,5 +1,5 @@
 body {
-  --backgroundDark: rgba(0, 0, 0, 0.9);
+  --backgroundDark: rgba(0, 0, 0, 0.744);
   --borderColor: #222;
   --transitionButton: background 0.25s ease-in-out;
   background: url("../images/lavender.jpg") no-repeat center center fixed;
@@ -65,13 +65,3 @@ li:hover{
     background-color: rgba(255, 255, 255, 0.4);
 }
 
-#pageInfo{
-    position: absolute;
-    height: 600px;
-    width: 700px;
-    background-color:var(--backgroundDark);
-    border: 2px solid var(--borderColor);
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-30%);
-}
