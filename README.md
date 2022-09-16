@@ -1,5 +1,6 @@
 # Restaurant
 
-Created a static restaurant page using HTML, CSS, JS, and Bootstrap.
+Created a static restaurant page using HTML, CSS, JS.
+Done in order to understand and use Webpack.
 
 [Live Demo](dylanperera.github.io/restaurant) :point_left:
