@@ -1,7 +1,6 @@
 import PageTemplate from "./pageFormatClass.js";
 import fillHomePage from "./homePage.js";
 import fillContactPage from "./contactPage.js";
-
 import fillMenuPage from "./menuPage.js";
 
 main();
@@ -29,7 +28,7 @@ function main() {
           }
 
           currentPage = "home page";
-          website.removeCurrentContent();
+          website.removeCurrentContent("homepageInfo");
           website.populateHomePage(fillHomePage);
           changeOptionUi(currentPage, headerOptions);
         }
